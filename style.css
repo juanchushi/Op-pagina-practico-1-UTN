@@ -1,0 +1,95 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-image: url(img/preview.jpg);
+}
+header{
+    background-color: #364552;
+    color: whitesmoke;
+    padding: 50px 30px;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    cursor: pointer;
+    width: 570px;
+    margin: 0 auto;
+    background-color: #283642;
+    border-radius: 8px;
+    padding: 30PX;
+}
+
+header h1:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+
+}
+
+.container{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+section article {
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 8px;
+    padding: 4px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+section article:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+section article h2, section article p {
+    margin: 22px;
+}
+#videoyt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0px;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+#videoyt:hover{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-image: url(img/oppattern.png);
+    background-position: -1000px -3000px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+footer{
+    background-color: #222;
+    padding: 50px;
+    color: #fff;
+
+}
+footer section{
+    float: right;
+}
+footer p{
+    display: inline;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+footer a:hover{
+    transition: color 0.3s ease;
+    color: cornflowerblue;
+}
